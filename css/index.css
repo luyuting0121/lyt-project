@@ -1,0 +1,981 @@
+/*顶部导航栏*/
+.left-top-nav{
+    width: 40px;
+    position: fixed;
+    z-index: 5;
+    left:0px;
+    top: 20px;
+    border: solid 1px #ccc;
+}
+
+
+
+.left-top-nav li{
+    height: 38px;
+    padding-top: 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    /*line-height: 38px;*/
+    text-align: center;
+}
+
+.left-top-nav li.navshow{
+    background-color: orangered;
+
+}
+
+
+.left-top-nav li a{
+    font-size: 16px;
+    color: #000;
+}
+/*顶部导航*/
+/*头部开始*/
+.nav1{
+    display:none;
+    width:1360px;
+    height:60px;
+    background-color:#404040;
+    opacity: 0.8;
+    line-height:60px;
+}
+/*头部左边开始*/
+.l-nav1{
+    float:left;
+    padding-left:60px;
+}
+.sp{
+    font-size:22px;
+    color:white;
+    padding-left:20px;
+    height:60px;
+    display:inline-block;
+    border-bottom-color: initial
+}
+.sp:hover{
+    background-color:#131304;
+    height:60px;
+    /*width:;*/
+    text-align:center;
+    text-decoration:underline;
+    /*border-bottom:2px,solid,pink;*/
+}
+/*头部右边开始*/
+.r-nav1{
+    float:right;
+    margin-right:60px;
+    position:relative;
+}
+.r-nav1 input{
+    height:40px;
+    width:300px;
+    float:right;
+}
+.r-nav1 .right{
+    height:43px;
+    width:75px;
+    /*background-color: rgb(255,154,106);*/
+    margin-left:0px;
+    margin-top:11px;
+    float:right;
+}
+i{
+    height:45px;
+    width:74px;
+    display:block;
+    background:url(../images/ac_global.png)no-repeat  -151px -605px;
+    position:absolute;
+    top:11px;
+    left:302px
+}
+i:hover{
+    height:45px;
+    width:74px;
+    display:block;
+    background:url(../images/ac_global.png)no-repeat  -75px -603px;
+    position:absolute;
+    top:8px;
+    left:301px
+}
+
+
+
+
+
+
+
+
+
+
+
+.topnav{
+    background: url("../images/ac_head_bg1.png") 50% 0 ;
+    height: 185px;
+}
+.l-topnav{
+    /*height: 187px;*/
+    width: 384px;
+    float: left;
+}
+.searchBox{
+    margin-top: 30px;
+    float: left;
+}
+
+.search{
+    height: 45px;
+    width: 80px;
+    float: right;
+    background-color: orangered;
+}
+
+.searchText{
+    float: left;
+    width: 384px;
+    height: 42px;
+    border: 1px solid orangered;
+}
+.searchText input{
+    width: 384px;
+    height: 42px;
+    font-size: 14px;
+    border: 1px solid orangered;
+}
+.hotword{
+   margin-top: 10px;
+}
+.hotword li{
+    float: left;
+    padding-right: 10px;
+}
+.hotword li a{
+    font-size: 12px;
+    color: #000;
+}
+.r-topnav{
+    float: left;
+    padding-left: 100px;
+}
+.main-nav{
+    height: 60px;
+    background-color: orange;
+    position: relative;
+    top: -58px;
+    left: 0;
+}
+.main-nav  li{
+    float: left;
+    line-height: 60px ;
+    padding-right: 27px;
+    /*position: relative;*/
+}
+
+
+.main-nav  li a{
+    color: #fff;
+    font-size: 14px;
+}
+
+
+.navtoptwo{
+    height: 60px;
+    width: 1200px;
+}
+.navtoptwo li{
+    float: left;
+    padding:0 10px;
+}
+.navthree{
+    padding: 20px 0;
+}
+.navthree li{
+    float: left;
+    padding-right: 30px;
+}
+.navthree li a{
+    font-size: 14px;
+    color: #000;
+}
+
+
+
+
+.tbody{
+    margin-top: 30px;
+    width: 1200px;
+}
+/*左边轮播图*/
+.tbody .l-tbody{
+    width: 912px;
+    float: left;
+    position: relative;
+}
+
+/*显示屏*/
+#screen {
+    width: 913px;
+    height: 356px;
+    overflow: hidden;
+    position: relative;
+}
+
+#screen li {
+    overflow: hidden;
+    float: left;
+    height: 356px;
+}
+#screen ul {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 5000px;
+}
+
+#screen ul li a{
+    padding: 0  1px 0 0;
+}
+
+ .inner{
+    float: left;
+}
+
+
+#screen ol {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#screen ol li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#screen ol li.current {
+    background: yellow;
+}
+
+#arrow {
+    display: none;
+}
+
+#arrow span {
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -40px;
+    background: #fff;
+    cursor: pointer;
+    line-height: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '黑体';
+    font-size: 40px;
+    color: #000;
+    opacity: 0.8;
+    border: 1px solid #fff;
+}
+
+#arrow #arrowRight {
+    right: 5px;
+    left: auto;
+}
+
+/*右面导航栏*/
+.tbody .r-tbody{
+    width: 280px;
+    height: 357px;
+    float: right;
+    background-color: black;
+}
+
+
+
+/*tab栏*/
+
+
+.box2 {
+    width: 257px;
+    height: 357px;
+    overflow: hidden;
+}
+
+.hd {
+    height: 45px;
+}
+
+.hd h1 {
+    margin-top: 10px;
+    display: inline-block;
+    padding-left: 10px;
+    background-color: #2e1907;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
+h1:hover{
+    color: orange;
+}
+
+.hd li.current {
+    background-color: lawngreen;
+}
+
+.bd li {
+    height: 220px;
+    background-color: black;
+    display: none;
+    padding: 5px 10px;
+    color: white;
+}
+
+.bd li.show {
+    display: block;
+}
+
+.r-tbody .pailieLeft{
+    float: left;
+
+}
+.r-tbody span{
+    margin: 5px 0;
+    display:inline-block;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    line-height: 15px;
+    background-color: orangered;
+}
+
+.r-tbody .pailieRight{
+    float:left;
+    padding-left: 30px;
+}
+
+.recommen{
+    border-top: 1px dashed #ccc;
+    padding-top: 10px;
+    margin-left: 8px;
+}
+.recommen .pailieRight {
+    padding-left: 70px;
+}
+
+/*文字部分*/
+.tbody-text{
+    margin: 20px 0px;
+    height: 80px;
+    background-color: #fff;
+}
+
+.tbody-text .l-leftt, .tbody-text .l-reftt{
+    float: left;
+    height: 60px;
+    width: 60px;
+    padding: 10px 5px;
+    line-height: 28px;
+    font-size: 22px;
+    text-align: center;
+    background-color: orange;
+    color: black;
+}
+.tbody-text .l-reftt{
+    margin-left: 40px;
+}
+
+.tbody-text .leftt,.tbody-text .reftt{
+    float: left;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+.tbody-text .leftt p ,.tbody-text .reftt p{
+    color: black;
+    font-size: 14px;
+}
+
+
+/*//跳楼整体*/
+/*强档推荐*/
+#littebox{
+    margin: 20px 0px;
+}
+#littebox .innerTitle em{
+    font-size: 20px;
+    font-style: normal;
+}
+
+#littebox .innerTitle .em1{
+    color: orange;
+    font-size: 22px;
+}
+
+#littebox .innerTitle h1 b{
+    margin-top: -10px;
+    display: inline-block;
+    width: 530px;
+    height: 2px;
+    background-color: orange;
+}
+
+
+/*第一个li的轮播图*/
+/*小标签，点击轮播效果的小黑点*/
+
+#littebox .innerTitle span{
+    background-color: black;
+    opacity: 0.3;
+    height: 10px;
+    width: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+#littebox .innerTitle .currentone{
+    opacity: 1;
+}
+
+
+
+
+#littebox #lione{
+    width: 10000px;
+    margin: 10px 0 20px 0px;
+}
+
+#lione  #screenone{
+    width: 1200px;
+    overflow: hidden;
+    height: 252px;
+    position: relative;
+}
+
+
+/*图片的右边箭头*/
+#arrow1{
+    height: 80px;
+    width: 30px;
+    background-color: #000;
+    opacity: 0.3;
+    font-size: 22px;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+    position: absolute;
+    right: 1px;
+    top: 45px;
+}
+
+#lione #screenone ul{
+    width: 10000px;
+    position: absolute;
+    left: 0px;
+}
+
+#lione #screenone li{
+    float: left;
+}
+
+#lione #screenone li a{
+    padding: 0  14px 0 0;
+}
+
+
+
+
+
+
+/*第二个li标签  强推作品*/
+.innerNav{
+    height: 60px;
+    margin-bottom: 20px;
+    background-color: #c2c2c2;
+}
+
+.innerNav a{
+    color: #000;
+}
+.innerNav .special{
+    padding: 0px;
+    height: 60px;
+    width: 120px;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+    background-color: red
+}
+
+.innerNav .leftli li{
+    float: left;
+    padding: 0 5px;
+    line-height: 60px;
+    font-size: 16px;
+    padding-right: 10px;
+}
+.innerNav .rightli {
+    float: right;
+    line-height: 60px;
+    font-size: 16px;
+}
+.innerNav .rightli a{
+    padding-right: 10px;
+}
+
+
+/*第二个li标签   强推作品*/
+#two{
+    margin-bottom: 30px;
+}
+.lionecontent{
+    width: 1200px;
+    /*height: 252px;*/
+}
+#l-lionecontent{
+    float:left;
+    width: 760px;
+}
+
+#l-lionecontent .b{
+    display: inline-block;
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+    font-style: normal;
+}
+/*//tab栏*/
+#l-lionecontent b{
+    display: inline-block;
+    height: 40px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    padding-right: 15px;
+}
+
+.lionetitle{
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.l-lionetitle{
+    float: left;
+}
+.r-lionetitle{
+    float: right;
+}
+.r-lionetitle span{
+    font-size: 20px;
+    color: #000;
+}
+.r-lionetitle b{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*//图的ul*/
+#litwo  .screentwo ul{
+    width: 10000px;
+    height: 200px;
+    position: absolute;
+}
+/*这些图片的显示屏*/
+#litwo .screentwo{
+    width: 760px;
+    overflow: hidden;
+    height: 200px;
+    position: relative;
+}
+
+/*li标签都应该浮动*/
+
+ #litwo .screentwo ul li{
+    float: left;
+}
+#litwo  .screentwo li a{
+    padding: 0 15px 0 0 ;
+}
+
+.currentlitwo{
+    background-color: orangered;
+    
+}
+
+/*下面的文字*/
+/*//与图片一样*/
+.pr {
+    float: left;
+    color: #000;
+}
+
+
+
+/*//右侧盒子畅销榜*/
+.r-content{
+    width: 400px;
+    height: 252px;
+    float: right;
+}
+.r-content h3{
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    padding-left: 60px;
+    color: #fff;
+    background-color: orangered;
+}
+
+.r-content .r-text{
+    background-color: #000;
+    width: 400px;
+    height: 252px;
+}
+
+
+.r-content  .pailieLeft{
+    float: left;
+}
+
+.r-content .pailieRight{
+    float: right;
+    /*padding: 0 30px;*/
+}
+
+
+.r-content p{
+    font-size: 14px;
+    color: #fff;
+    padding: 7px 23px 6px 24px;
+}
+.r-content span {
+    height: 15px;
+    width: 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: orangered;
+    display: inline-block;
+    text-align: center;
+}
+
+
+/*//第三个li*/
+
+#three{
+    margin-top: 10px;
+    width: 1200px;
+}
+.leftlithree{
+    width: 760px;
+    float: left;
+}
+
+.l-threeTitle{
+    float: left;
+    height: 30px;
+}
+.leftlithree em{
+    font-size: 16px;
+    color:  #000;
+    font-style: normal;
+    padding-left: 15px;
+}
+
+.leftlithree .em1{
+    font-size: 20px;
+    padding-left: 0px;
+}
+
+.threeTitle .span{
+    float: right;
+    color: #000;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+
+.currentlithree{
+    background-color: orangered;
+}
+/*tab栏*/
+#lithreeleft li a{
+ padding-right: 14px;
+}
+
+.bdthree li{
+    display: none;
+}
+.bdthree li.showthree{
+    display: block;
+}
+
+
+
+
+/*//右边轮播图*/
+
+.rightlithree{
+    float: right;
+}
+
+.rightlithree h1{
+    height: 30px;
+}
+
+
+
+.rightlithree h1 span{
+    font-size: 16px;
+    color: #000;
+}
+
+#innerlithree{
+    padding-right: 0px;
+}
+
+.screenthree{
+    width: 398px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+#innerlithree ul{
+    width: 10000px;
+}
+
+#innerlithree ul li{
+    float: left;
+}
+
+/*图片盒子*/
+.threeimg{
+    margin-top: 30px;
+    width: 1200px;
+    height: 100px;
+    background-color: #535353;
+    padding: 16px 0;
+}
+
+.threeimg li{
+    float: left;
+    margin-left: 15px;
+}
+
+/*//第四个li标签*/
+#four{
+    margin-top: 20px;
+    height: 350px;
+}
+#four .leftlifour{
+    float: left;
+}
+#four h1{
+    height: 20px ;
+    color: orangered;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.rightlifour{
+    float: left;
+    padding-left: 20px;
+}
+
+.parafour{
+    margin-bottom: 60px;
+}
+
+.parafour .p4 {
+   font-size: 16px;
+    color: #000;
+}
+
+.bimg li{
+    float: left;
+    padding: 0 10px;
+}
+
+/*第六个li*/
+/*上升最快*/
+.leftsixli{
+    float: left;
+    width: 580px;
+}
+
+.sixtitle{
+    margin: 15px 0;
+}
+.sixtitle b{
+    font-style: normal;
+    font-size: 20px;
+    color: orangered;
+}
+.sixtitle .b{
+    font-style: normal;
+    font-size: 22px;
+    color: #000;
+}
+.sixtitle s{
+    height: 1px;
+    width: 200px;
+    background-color: #ccc;
+    display: inline-block;
+}
+.sixli{
+    width: 580px;
+    height: 456px;
+    overflow: hidden;
+}
+
+.sixli .t-sixli li, .sixli .b-sixli li{
+    float: left;
+    margin-bottom: 95px;
+}
+.sixli .t-sixli li a, .sixli .b-sixli li a{
+    padding-right: 10px;
+    /*margin-top: 10px;*/
+}
+
+
+.r-six,.l-six{
+    float: left;
+}
+
+.r-six span{
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+    color: #000;
+}
+
+.currentsix{
+    background-color: orangered;
+}
+
+.sixli {
+    /*display: none;*/
+}
+
+.sixli  div.showsix{
+    display: block;
+}
+
+.rightsixli{
+    float: right;
+    width: 580px;
+    height: 456px;
+    /*background-color: #000;*/
+}
+.rightsixli .sixtwoTitle{
+    margin-top: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+.rightsixli .sixtwoTitle span{
+    font-size: 14px;
+    color: #000;
+}
+
+.rightsixli .sixtwoTitle .span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.contentsix h4{
+    height: 30px;
+    background-color: orangered;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fff;
+}
+
+/*右侧排行榜*/
+.contentsix2{
+    height: 400px;
+    width: 580px;
+    background-color: #fff;
+}
+.contentsix2 p{
+    padding: 0;
+}
+
+.contentsix2 span{
+    font-size: 14px;
+    color: #000;
+    padding: 0 10px 0 10px ;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+}
+.contentsix2 .p1 span{
+    padding: 2px 0 2px 0;
+}
+
+
+.contentsix2 .span{
+    padding: 0  0  0 0;
+    margin:0 45px;
+    height: 15px;
+    width: 15px;
+    background-color: orangered;
+    display: inline-block;
+    text-align: center;
+    line-height: 15px;
+}
+
+/*第七个大盒子*/
+.b-sevenlileft{
+    /*height: 300px;*/
+    width: 916px;
+}
+
+.sevenTitle{
+    width: 916px;
+    height: 30px;
+}
+.sevenlileft h4{
+    font-size: 22px;
+    color: #000;
+    height: 30px;
+    width: 100px;
+    float: left;
+}
+.sevenlileft h4 span{
+    font-size: 20px;
+    color: orangered;
+}
+.sevenlileft .h4{
+    font-size: 14px;
+    width: 100px;
+    float: right;
+}
+.sevenli{
+    width: 916px;
+}
+.sevenli li{
+    float: left;
+}
+
+.b-sevenlileft2 .sevenli li{
+    float: left;
+    padding-right: 20px;
+}
+
+.pic{
+    margin-top: 30px;
+}
+
+
+

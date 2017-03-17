@@ -1,0 +1,63 @@
+/* 初始化 */
+body,p,ul,ol,dl,li,dt,dd,h1,h2,h3,h4,h5,h6 {
+
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #999999;
+    list-style: none;
+    /* font:  12px  微软雅黑; */
+}
+
+body {
+    background-color: #F6F6F6;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F10215;
+}
+
+input,img {
+    border: 0 none;
+    /* 去掉轮廓线 */
+    outline-style: none;
+    margin:  0;
+    padding: 0;
+    vertical-align: bottom;
+}
+
+/* 版心 */
+.w {
+    width: 1200px;
+    margin:  0 auto;
+    /*background-color: #d3d3d3;*/
+}
+
+
+.clearfix:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+/*//给a标签的一个设置  点击添加一个透明的盒子*/
+.change{
+    opacity: 0.2;
+    height: 100px;
+    width: 100px;
+    background-color: #000;
+    display: inline-block;
+}
